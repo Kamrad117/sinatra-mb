@@ -1,0 +1,20 @@
+require: rubocop-performance
+
+Layout/AlignParameters:
+  EnforcedStyle: with_fixed_indentation
+
+Style/Documentation:
+  Enabled: false
+
+Style/HashSyntax:
+  Enabled: true
+
+Style/IfUnlessModifier:
+  Enabled: false
+
+Style/MethodCallWithoutArgsParentheses:
+  Enabled: true
+
+Style/StringLiterals:
+  Enabled: true
+  EnforcedStyle: single_quotes
