@@ -1,6 +1,7 @@
 # frozen_string_literal: true
 
 require 'sinatra'
+require 'em/pure_ruby'
 
 configure do
   set :app_file, __FILE__
