@@ -1,0 +1,9 @@
+.git
+.gitignore
+README.md
+.rspec
+spec
+.ruby-gemset
+.ruby-version
+Guardfile
+.rubocop.yml

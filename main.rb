@@ -2,6 +2,16 @@
 
 require 'sinatra'
 
+configure do
+  set :app_file, __FILE__
+  set :root, File.dirname(__FILE__)
+  set :static, false
+  set :server, :thin
+  set :port, 80
+  set :method_override, false
+  set :environment, :production
+end
+
 get '/:uri' do
   @uri = params[:uri]
 
