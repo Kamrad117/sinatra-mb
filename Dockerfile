@@ -21,4 +21,4 @@ ENV RACK_ENV=production
 
 EXPOSE 80
 
-CMD ["bunle exec ruby main.rb"]
+CMD bunle exec ruby main.rb
